@@ -1,3 +1,4 @@
+import { FilterState } from '../types';
 import React from 'react';
 
 interface SearchFiltersProps {

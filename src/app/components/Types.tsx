@@ -1,5 +1,16 @@
-export * from './property';
+// Property Interface
+export interface Property {
+  id: string;
+  title: string;
+  address: string;
+  city: string;
+  price: number;
+  beds: number;
+  baths: number;
+  imageUrl: string;
+}
 
+// Sponsor Interface
 export interface Sponsor {
   id: string;
   companyName: string;
@@ -8,7 +19,7 @@ export interface Sponsor {
   sponsorUrl: string;
 }
 
-
+// Search & Filter Parameters Interface
 export interface FilterState {
   searchQuery: string;
   minPrice?: number;
