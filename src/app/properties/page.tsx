@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { PropertyGuard } from '../components/PropertyGuard';
+import { PropertyGuard } from '@/components/PropertyGuard';
 
 function getProperties() {
   const filePath = path.join(process.cwd(), 'data/properties.json');
